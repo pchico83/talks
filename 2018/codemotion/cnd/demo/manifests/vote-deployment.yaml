@@ -10,5 +10,6 @@ spec:
         app: vote
     spec:
       containers:
-      - image: pchico83/codemotion
+      - image: okteto/welcome:2
+        imagePullPolicy: Always
         name: vote

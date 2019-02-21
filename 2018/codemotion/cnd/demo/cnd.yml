@@ -1,11 +1,7 @@
-name: cnd-vote
 swap:
   deployment:
-    file: ./manifests/vote-deployment.yaml
+    name: vote
     container: vote
-    image: pchico83/codemotion
-  service:
-    file: /manifests/vote-service.yaml
 mount:
   source: vote
   target: /src

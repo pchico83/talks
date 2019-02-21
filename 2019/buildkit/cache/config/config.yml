@@ -1,0 +1,20 @@
+api:
+  url: "http://api:8000"
+  secret: "WLf3wg6JF4wzvJYEQIkb"
+environment: "dev"
+database:
+  driver:   "postgres"
+  host:     "localhost"
+  port:     "5432"
+  user:     "okteto"
+  password: "okteto"
+  database: "okteto"
+aws:
+  prefix:     "okteto"
+  hostedzone: "okteto.net."
+certificate:
+  secret: "wildcard-free-tier-riberaproject-net"
+  namespace: "ingress-nginx"
+cluster:
+  name: "Free Tier"
+  enabled: false

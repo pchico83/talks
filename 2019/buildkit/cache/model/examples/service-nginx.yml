@@ -1,0 +1,5 @@
+name: test
+replicas: 2
+containers:
+  nginx:
+    image: nginx:alpine

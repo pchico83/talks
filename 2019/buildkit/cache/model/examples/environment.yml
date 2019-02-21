@@ -1,0 +1,10 @@
+name: test
+provider:
+  type: k8
+  username: username
+  password: password
+  endpoint: endpoint
+  ca_cert: ca_cert
+registry:
+  username: test
+  password: password
