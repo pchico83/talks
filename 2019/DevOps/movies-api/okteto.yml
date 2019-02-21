@@ -1,0 +1,6 @@
+swap:
+  deployment:
+    name: movies-api
+    command: ["yarn", "start"]
+mount:
+  target: /usr/src/app

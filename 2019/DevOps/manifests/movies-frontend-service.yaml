@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: movies-frontend
+spec:
+  type: ClusterIP  
+  ports:
+  - name: "movies-frontend-service"
+    port: 9000
+  - name: "movies-frontend-hmr-service"
+    port: 9001
+  selector:
+    app: movies-frontend

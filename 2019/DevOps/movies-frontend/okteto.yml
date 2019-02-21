@@ -1,0 +1,7 @@
+swap:
+  deployment:
+    name: movies-frontend
+    command: ["yarn", "start"]
+mount:
+  target: /usr/src/app
+
