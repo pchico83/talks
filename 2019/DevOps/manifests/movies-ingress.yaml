@@ -5,9 +5,10 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
     kubernetes.io/tls-acme: "true"
+    certmanager.k8s.io/issuer: pablo-okteto-com
 spec:
   rules:
-  - host: movies.europe.okteto.net
+  - host: movies.pablo.apps.dev.k8spin.cloud
     http:
       paths:
       - path: /api
@@ -24,5 +25,5 @@ spec:
           servicePort: 9000
   tls:
   - hosts:
-    - movies.europe.okteto.net
+    - movies.pablo.apps.dev.k8spin.cloud
     secretName: movies-letsencrypt          

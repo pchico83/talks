@@ -52,7 +52,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="Header">
-          <div className="logo">Netflix</div>
+          <div className="logo">Movies</div>
           <UserProfile />
         </header>
         <Hero />
