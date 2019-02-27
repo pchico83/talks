@@ -10,5 +10,5 @@ spec:
         app: movies-api
     spec:
       containers:
-      - image: okteto/example-react-api
+      - image: okteto/example-react-api:devops
         name: movies-api
